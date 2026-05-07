@@ -8613,4 +8613,4 @@ document.addEventListener("contextmenu", function (p638) {
   v625.textContent = "\n        (function() {\n            var preventDebugging = setInterval(function() {\n                if (window.console) {\n                    console.log = function() {}; \n                    console.debug = function() {}; \n                    console.error = function() {}; \n                    console.info = function() {};  \n                }\n            }, 1000);\n        })();\n    ";
   document.head.appendChild(v625);
 })();
-console.log("%cDeveloper By XO team", "color: #FF7F00; font-size: 18px; font-weight: bold;");
+console.log("%cDeveloper XO team", "color: #FF7F00; font-size: 18px; font-weight: bold;");
